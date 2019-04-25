@@ -53,70 +53,127 @@
     <!-- Grid row -->
     <div class="gallery" id="gallery">
 
+<!-- ===================================================== -->
+
+<!-- Small Images -->
+
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/d1.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(1)" src="img/d1.jpeg">
       </div>
-
       <!-- Grid column -->
       <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="img/b2.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(2)" src="img/b1.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/d5.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(3)" src="img/d5.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/d2.jpeg" alt="Card image cap">
-      </div>
-
-      <!-- Grid column -->
-      <div class="mb-3 pics animation all 1">
-        <img class="img-fluid" src="img/b1.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(4)" src="img/d2.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 3">
-        <img class="img-fluid" src="img/de1.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(5)" src="img/de1.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/d3.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(6)" src="img/d3.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/banner1.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(7)" src="img/banner1.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/banner2.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(8)" src="img/banner2.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/d4.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(9)" src="img/d4.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/banner3.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(10)" src="img/banner3.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 3">
-        <img class="img-fluid" src="img/de2.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(11)" src="img/de2.jpeg">
       </div>
 
       <!-- Grid column -->
       <div class="mb-3 pics animation all 2">
-        <img class="img-fluid" src="img/d6.jpeg" alt="Card image cap">
+        <img class="img-fluid hover-shadow" onclick="openModal();currentSlide(12)" src="img/d6.jpeg">
       </div>
+
+<!-- Large Images -->
+
+      <div id="myModal" class="modal">
+        <span class="close cursor" onclick="closeModal()">&times;</span>
+        <div class="modal-content">
+
+          <div class="mySlides">
+            <img src="img/d1.jpg" onclick="currentSlide(1)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/b1.jpeg" onclick="currentSlide(2)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/d5.jpg" onclick="currentSlide(3)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/d2.jpg" onclick="currentSlide(4)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/de1.jpg" onclick="currentSlide(5)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/d3.jpg" onclick="currentSlide(6)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/banner1.jpg" onclick="currentSlide(7)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/banner2.jpg" onclick="currentSlide(8)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/d4.jpg" onclick="currentSlide(9)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/banner3.jpg" onclick="currentSlide(10)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/de2.jpg" onclick="currentSlide(11)" class="enlarged">
+          </div>
+
+          <div class="mySlides">
+            <img src="img/d6.jpg" onclick="currentSlide(12)" class="enlarged">
+          </div>
+
+        </div>
+      </div>
+
+<!-- =================================================== -->
 
     </div>
 
@@ -125,6 +182,7 @@
       <p id="socials">
         <a target="_blank" href="https://www.facebook.com/hankysrestaurant/" class="fa fa-facebook"></a>
         <a target="_blank" href="https://www.instagram.com/hankys_restaurant/" class="fa fa-instagram"></a>
+        <a target="_blank" href="https://www.yelp.ca/biz/hankys-hope" class="fa fa-yelp"></a>
       </p>
     </footer>
 

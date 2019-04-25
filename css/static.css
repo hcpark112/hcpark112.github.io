@@ -1,7 +1,7 @@
 /* Main Body */
-@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+@import url('https://fonts.googleapis.com/css?family=Lora');
 p, span, h1, h2, h3, body, div, nav {
-  font-family: 'Vollkorn', serif !important;
+  font-family: 'Lora', serif !important;
 }
 body{ background: #605c5c; }
 nav, .dropdown-menu{
@@ -35,7 +35,7 @@ nav, .dropdown-menu{
   text-align: center;
   text-decoration: none !important;
 }
-.fa:hover {
+.fa-facebook:hover, .fa-instagram:hover {
   opacity: 0.7 !important;
   color: white;
 }
@@ -43,13 +43,17 @@ nav, .dropdown-menu{
   background: #3B5998;
   color: white;
 }
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
 .fa-instagram {
   background: #125688;
   color: white;
+}
+.fa-yelp {
+  background: white;
+  color: #d32323;
+}
+.fa-yelp:hover {
+    opacity: 0.7 !important;
+    color: #d32323;
 }
 
 /* Small devices (landscape phones, 576px and up) */

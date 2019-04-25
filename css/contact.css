@@ -1,7 +1,15 @@
 /* Small devices (landscape phones, 576px and up) */
 body{ height: 100%; }
+table{ margin: auto; }
+.time{ text-align: left; }
+.day{ text-align: right; }
+.card-header{
+  background-color: rgb(122,20,20,1) !important;
+  color: #fefefe !important;
+}
 
 @media (min-width: 300px) {
+  .container{ display: block; }
   .lead{ font-size: 24pt; }
   #locationdiv {
     background-color: #efefef;
@@ -23,7 +31,7 @@ body{ height: 100%; }
     margin: 0 auto;
     padding-right: 0%;
     padding-left: 0%;
-    padding-bottom: 2%;
+    padding-bottom: 15%;
     text-align: center;
   }
   .row{
@@ -43,14 +51,14 @@ body{ height: 100%; }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .container{ display: inline-flex;}
   #location {
-    width: 80%;
+    width: 100%;
   }
   .jumbotron{
     width: 75%;
     margin: 0 auto;
-    padding-right: 10%;
-    padding-left: 10%;
+    padding: 2.5% 2% 2%;
     text-align: center;
   }
   .row{
@@ -61,7 +69,7 @@ body{ height: 100%; }
     font-size: 1rem !important;
     width: 150px;
     height: 80px;
-    margin: 2% 5%;
+    margin: 0% 5%;
   }
 }
 
