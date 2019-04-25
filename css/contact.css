@@ -9,6 +9,13 @@ table{ margin: auto; }
 }
 
 @media (min-width: 300px) {
+  td{
+    font-size: 0.57rem !important;
+  }
+  .mb-3{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
   .container{ display: block; }
   .lead{ font-size: 24pt; }
   #locationdiv {
@@ -63,18 +70,26 @@ table{ margin: auto; }
   }
   .row{
     margin: auto;
-    width: 80%;
+    width: 100%;
   }
   .btn{
-    font-size: 1rem !important;
-    width: 150px;
+    font-size: .7rem !important;
+    width: 120px;
     height: 80px;
     margin: 0% 5%;
   }
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+  td{
+    font-size: unset !important;
+  }
+  .btn{
+    font-size: 1rem !important;
+    width: 150px;
+  }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
