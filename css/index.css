@@ -56,11 +56,11 @@
     width: auto !important;
     min-height: 55vh;
   }
-  .carousel-inner{ height: 55vh;}
+  .carousel-inner{ height: 55vh; overflow: hidden;}
   .carousel-item img {
     margin: 0 auto;
-    min-height: 55vh;
-    width: unset;
+    height: auto;
+    width: 100%;
   }
   #carousel{ margin: 1% auto; }
 }
