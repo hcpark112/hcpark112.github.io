@@ -56,8 +56,17 @@ table{ margin: auto; }
   }
 }
 
+@media (min-width: 550px) {
+  td{
+    font-size: 0.7rem !important;
+  }
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  td{
+    font-size: 0.57rem !important;
+  }
   .container{ display: inline-flex;}
   #location {
     width: 100%;
@@ -83,7 +92,7 @@ table{ margin: auto; }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   td{
-    font-size: unset !important;
+    font-size: 0.8rem !important;
   }
   .btn{
     font-size: 1rem !important;
@@ -92,4 +101,8 @@ table{ margin: auto; }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+  td{
+    font-size: unset !important;
+  }
+}
