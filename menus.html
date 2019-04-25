@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="css/static.css">
+    <link rel="stylesheet" href="css/menu_static.css">
+    <link rel="stylesheet" href="css/menus.css">
+    <title>Hanky's Menus</title>
+  </head>
+  <body>
+    <!-- The Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" id="header1">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" id="hanky" href="index.html"><img src="img/logo.jpeg" id="logo"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="menus.html">Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar 2 -->
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-center fixed-top" id="header2">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#brunch_menu">Brunch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#dinner_menu">Dinner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seniors_brunch_menu">Senior's Brunch</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#seniors_dinner_menu">Senior's Dinner</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#kids_menu">Kid's Menu</a>
+        </li>
+      </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="header3">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand mr-auto" id="hanky" href="index.html"><img src="img/logo.jpeg" id="logo"></a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menus
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="nav-link" href="#brunch_menu">Brunch</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#dinner_menu">Dinner</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#seniors_brunch_menu">Senior's Brunch</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#seniors_dinner_menu">Senior's Dinner</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#kids_brunch_menu">Kid's Brunch</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#kids_dinner_menu">Kid's Dinner</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#na_beverages_menu">Non-Alcoholic Beverages</a>
+                <div class="dropdown-divider"></div>
+                <a class="nav-link" href="#a_beverages_menu">Alcoholic Beverages</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Menus -->
+    <scroll-container>
+      <scroll-page id="brunch_menu">
+        <div class="jumbotron">
+          <img class="img-fluid" src="img/brunch_menu.jpeg" alt="brunch">
+          <!-- <div class="container">
+            <h1 class="display-4">Brunch Menu</h1>
+            <p class="lead">Everyday Brunch until 3pm</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div> -->
+        </div>
+      </scroll-page>
+
+      <scroll-page id="dinner_menu">
+        <div class="jumbotron">
+          <img class="img-fluid" src="img/dinner_menu.jpeg" alt="dinner">
+          <!-- <div class="container">
+            <h1 class="display-4">Dinner Menu</h1>
+            <p class="lead"><br></p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div> -->
+        </div>
+      </scroll-page>
+
+      <scroll-page id="seniors_brunch_menu">
+        <div class="jumbotron">
+          <img class="img-fluid" src="img/seniors_brunch.jpeg" alt="seniors_brunch">
+          <!-- <div class="container">
+            <h1 class="display-4">Senior's Brunch Menu</h1>
+            <p class="lead">Senior's Complimentary Coffee & Dessert</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div> -->
+        </div>
+      </scroll-page>
+
+      <scroll-page id="seniors_dinner_menu">
+        <div class="jumbotron">
+          <img class="img-fluid" src="img/seniors_dinner.jpeg" alt="seniors_dinner">
+          <!-- <div class="container">
+            <h1 class="display-4">Senior's Dinner Menu</h1>
+            <p class="lead">Senior's Complimentary Coffee & Dessert</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div> -->
+        </div>
+      </scroll-page>
+
+      <scroll-page id="kids_menu">
+        <div class="jumbotron">
+          <img class="img-fluid" src="img/kids_menu.jpeg" alt="kids_menu">
+          <!-- <div class="container">
+            <h1 class="display-4">Kid's Brunch Menu</h1>
+            <p class="lead"><br></p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div>
+        </div>
+      </scroll-page>
+
+      <scroll-page id="kids_dinner_menu">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-4">Kid's Dinner Menu</h1>
+            <p class="lead"><br></p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div>
+        </div>
+      </scroll-page>
+
+      <scroll-page id="na_beverages_menu">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-4">Non-Alcoholic Beverages Menu</h1>
+            <p class="lead"><br></p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div>
+        </div>
+      </scroll-page>
+
+      <scroll-page id="a_beverages_menu">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-4">Alcoholic Beverages Menu</h1>
+            <p class="lead"><br></p>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <img class="card-img-top" src="img/b1.jpeg">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <p class="lead" id="subject_to_change">PRICES SUBJECT TO CHANGE WITHOUT NOTICE</p>
+          </div>
+        </div>
+      </scroll-page> -->
+    </scroll-container>
+
+    <!-- Footer -->
+    <footer class="fixed-bottom">
+      <p id="socials">
+        <a target="_blank" href="https://www.facebook.com/hankysrestaurant/" class="fa fa-facebook"></a>
+        <a target="_blank" href="https://www.instagram.com/hankys_restaurant/" class="fa fa-instagram"></a>
+      </p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/menus.js"></script>
+  </body>
+</html>

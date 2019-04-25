@@ -1,0 +1,66 @@
+/* Small devices (landscape phones, 576px and up) */
+.display-4{
+  color: rgb(122,20,20,1) !important;
+}
+@media (min-width: 300px) {
+  .display-4{ font-size: 18pt;}
+  .jumbotron{
+    text-align: center;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+  }
+  .carousel{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+  .carousel-item{
+    width: 100%;
+    height: auto;
+  }
+  .carousel-inner{ height: auto; }
+  .carousel img {
+    margin: 0 auto;
+    height: 50vh;
+    min-width: auto;
+  }
+  .btn{
+    text-align: center;
+    width: 140px;
+    height: 50px;
+    margin: 2% 5%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .display-4{ font-size: 3.5rem; }
+  .jumbotron{
+    margin: 2% auto 0;
+    max-width: 75%;
+    min-height: 75vh;
+  }
+  .carousel{
+    background-color: black;
+    max-width: 75%;
+    min-height: 55vh;
+  }
+  .carousel-item{
+    width: auto !important;
+    min-height: 55vh;
+  }
+  .carousel-inner{ height: 55vh;}
+  .carousel-item img {
+    margin: 0 auto;
+    min-height: 55vh;
+    width: unset;
+  }
+  #carousel{ margin: 1% auto; }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

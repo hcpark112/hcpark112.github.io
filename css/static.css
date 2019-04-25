@@ -1,0 +1,68 @@
+/* Main Body */
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+p, span, h1, h2, h3, body, div, nav {
+  font-family: 'Vollkorn', serif !important;
+}
+body{ background: #605c5c; }
+nav, .dropdown-menu{
+  background-color: rgb(122,20,20,1) !important;
+}
+.nav-link {
+  color: #fefefe !important;
+}
+
+#logo{
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  border: white solid 2px;
+}
+#hanky{
+  padding: 0;
+  margin: 0;
+}
+
+/* Footer */
+#socials {
+  margin: 2px;
+  text-align: right;
+}
+.fa {
+  padding-top: 10px !important;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none !important;
+}
+.fa:hover {
+  opacity: 0.7 !important;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 310px) {
+  #hanky{ margin-left: 12px; }
+  .dropdown-menu{ text-align: center; }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
