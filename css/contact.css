@@ -39,6 +39,7 @@ table{ margin: auto; }
     padding-right: 0%;
     padding-left: 0%;
     padding-bottom: 15%;
+    display: grid;
     text-align: center;
   }
   .row{
