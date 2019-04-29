@@ -56,7 +56,7 @@ input[type=submit]:hover {
   .display-4{font-size: 3rem;}
   label{ display: none; }
   td{ display: block; }
-  td, textarea, input[text=input]{ width: 100%;}
+  td, textarea, input[type=text], input[type=email]{ width: 100%;}
 }
 
 /* Medium devices (tablets, 768px and up) */
