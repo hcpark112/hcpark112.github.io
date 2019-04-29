@@ -11,6 +11,7 @@ td{ width: 30%;}
 #ljust{
   text-align: left;
 }
+label{ padding-left: 6%; }
 .container{ padding-bottom: 0px !important;}
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
@@ -53,12 +54,20 @@ input[type=submit]:hover {
 @media (min-width: 300px) {
   #banner{width: 100%;}
   .display-4{font-size: 3rem;}
+  label{ display: none; }
+  td{ display: block; }
+  td, textarea, input[text=input]{ width: 100%;}
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #banner{width: 65%;}
   .display-4{font-size: 3.5rem;}
+  label{ display: inline-block; }
+  td{ display: table-cell;; }
+  td{ width: 30%; }
+  textarea{ width: 90% }
+  input[text=input]{ width: 97%;}
 }
 
 /* Large devices (desktops, 992px and up) */
