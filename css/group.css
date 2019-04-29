@@ -66,8 +66,8 @@ input[type=submit]:hover {
   label{ display: inline-block; }
   td{ display: table-cell;; }
   td{ width: 30%; }
-  textarea{ width: 90% }
-  input[text=input]{ width: 97%;}
+  textarea{ width: 97% }
+  input[type=text], input[type=email]{ width: 90%;}
 }
 
 /* Large devices (desktops, 992px and up) */
